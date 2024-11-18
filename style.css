@@ -2,11 +2,13 @@ h1 {
     border-style: double;
     margin: auto;
     text-align: center;
+    color: #c0c0c0;
   }
 
 h2 {
     margin: auto;
     text-align: center;
+    color: #c0c0c0;
   }
 
 p {
@@ -15,7 +17,7 @@ p {
     text-align:left;
     word-wrap: break-word; /* Handle long words */
     max-width: 600px;
-    color: rgb(0, 0, 0);
+    color: #c0c0c0;
     text-indent: 1.5em;
     font-size: clamp(1rem, 1.3vw, 1.3rem); /* Adjust min, preferred, and max sizes */
     font-family: Garamond, Arial, sans-serif;
@@ -25,3 +27,7 @@ p {
     text-align: center;
 
 }
+
+body {
+    background-color: #253342;
+  }
